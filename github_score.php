@@ -43,5 +43,28 @@
 
 /*-------------------------------------------------------------------------------------------------------------------*/
 
+	for ($i=0; $i<count($json) ; $i++) { 
+		
+		if ($json[$i]->type == "PushEvent") {
+			$puntaje=$puntaje+5;
+			$push=$push+1;
+		}
+		elseif ($json[$i]->type == "CreateEvent") {
+			$puntaje=$puntaje+4;
+			$create=$create+1;
+		}
+		elseif ($json[$i]->type == "IssuesEvent") {
+			$puntaje=$puntaje+3;
+			$issues=$issues+1;
+		}
+		elseif ($json[$i]->type == "CommitCommentEvent") {
+			$puntaje=$puntaje+2;
+			$commit=$commit+1;
+		}
+		elseif (!valid_event($json[$i]->type)) {
+			$puntaje+$puntaje+1;
+			$otro=$otro+1;
+		}
+	}
 
 ?>
