@@ -11,4 +11,10 @@
 	}
 
 
+
+  $user=$_POST["user"];
+  $url="https://api.github.com/users/".$user."/events";
+  $url_profile="https://api.github.com/users/".$user;
+
+
 ?>
