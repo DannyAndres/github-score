@@ -122,7 +122,7 @@
 					echo "Seguidores:"." ".$json2[followers]."<br>";
 					echo "Siguiendo:"." ".$json2[following]."<br>";
 					echo "Creado en:"." ".$json2[created_at]."<br>";
-					echo "Ultima uso:"." ".$json2[updated_at]."<br>";
+					echo "Ultimo uso:"." ".$json2[updated_at]."<br>";
 				}
 				else{
 					echo "Nombre:"." ".$json2[name]."<br>";
