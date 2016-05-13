@@ -41,7 +41,7 @@
 				curl_close($ch);
 				$json2=json_decode($curl_profile, true);
 		 
-				if ($json2[login]=="") {
+				if ($json2["login"]==null) {
 			?>
 				<img width="246" heigth="184" src='img/lol.png'> 
 			<?php } ?>
@@ -82,7 +82,7 @@
 
 					curl_close($ch);
 				?>
-				<img class="img-rounded" width="246" heigth="184" src='<?php echo $json2[avatar_url]; ?>' alt='<?php $json2[name]?>' >
+				<img class="img-rounded" width="246" heigth="184" src='<?php echo $json2["avatar_url"]; ?>' alt='<?php $json2["name"]?>' >
 			</div>
 
 		<!--_______________________________________________________________________________________________________-->
@@ -111,26 +111,26 @@
 
 				curl_close($ch);  
 			
-				if ($json2[login]==null) {
+				if ($json2["login"]==null) {
 					echo "<h2>Este usuario<h2/>";
 					echo "<h2>no existe<h2/>";
 					echo "<p>porfavor intentelo nuevamente</p>";
 				}
-				elseif ($json2[name]==null) {
+				elseif ($json2["name"]==null) {
 					echo "Nombre:"." "."Sin Nombre"."<br>";
-					echo "Usuario:"." ".$json2[login]."<br>";
-					echo "Seguidores:"." ".$json2[followers]."<br>";
-					echo "Siguiendo:"." ".$json2[following]."<br>";
-					echo "Creado en:"." ".$json2[created_at]."<br>";
-					echo "Ultimo uso:"." ".$json2[updated_at]."<br>";
+					echo "Usuario:"." ".$json2["login"]."<br>";
+					echo "Seguidores:"." ".$json2["followers"]."<br>";
+					echo "Siguiendo:"." ".$json2["following"]."<br>";
+					echo "Creado en:"." ".$json2["created_at"]."<br>";
+					echo "Ultimo uso:"." ".$json2["updated_at"]."<br>";
 				}
 				else{
-					echo "Nombre:"." ".$json2[name]."<br>";
-					echo "Usuario:"." ".$json2[login]."<br>";
-					echo "Seguidores:"." ".$json2[followers]."<br>";
-					echo "Siguiendo:"." ".$json2[following]."<br>";
-					echo "Creado en:"." ".$json2[created_at]."<br>";
-					echo "Ultima uso:"." ".$json2[updated_at]."<br>";
+					echo "Nombre:"." ".$json2["name"]."<br>";
+					echo "Usuario:"." ".$json2["login"]."<br>";
+					echo "Seguidores:"." ".$json2["followers"]."<br>";
+					echo "Siguiendo:"." ".$json2["following"]."<br>";
+					echo "Creado en:"." ".$json2["created_at"]."<br>";
+					echo "Ultima uso:"." ".$json2["updated_at"]."<br>";
 				}
 				?>
 				<nav>
@@ -216,7 +216,7 @@
 						}
 					}
 
-					if ($json2[login]=="") {
+					if ($json2["login"]==null) {
 						$otro=$otro-2;
 						$puntaje=$puntaje-2;
 						/*estos ajustes de variable estan hechos debido a que el programa toma dos otros los cuales son desconocidos..... cuando coloco un usuario que no existe toma dos otros y automaticamente empieza con dos puntos extras, por lo que para arreglar ese error le e de restar los puntos al puntaje total y al evento otros*/
@@ -243,12 +243,12 @@
 
 	<div class="col-md-3 espacio-arriba">
 		<?php 
-			if (($json2[followers]==0)and($json2[login]==!"")) {
+			if (($json2["followers"]==0)and($json2["login"]==!null)) {
 		?>
 			<img width="246" heigth="184" src='img/foreveralone.png'> 
 		<?php } ?>
 		<?php 
-			if ($json2[login]=="") {
+			if ($json2["login"]==null) {
 		?>
 			<img width="246" heigth="184" src='img/trollface.png'> 
 		<?php } ?>
