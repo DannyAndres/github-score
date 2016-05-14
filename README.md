@@ -1,8 +1,8 @@
-# github-score
-Este programa tiene como objetivo calcular el puntaje de github de un usuario basado en estos puntajes
+# github-score V2
+#Nuevos cambios
+en esta segunda version no calcula los puntajes solo basado en los eventos del usuario sino que tambien los pondera
+con sus seguidores y estrellas por repositorio
 
-  	PushEvent: Otorga 5
-	CreateEvent: Otorga 4
-	IssuesEvent: Otorga 3
-	CommitCommentEvent: Otorga 2
-	otro: Otorga 1
+-se quitaron algunos codigos extras
+-se añadirá un apartado para calcular puntaje de dos usuarios y compararlos (github battle)
+
