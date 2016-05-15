@@ -56,7 +56,7 @@ body{
 		<form action="stars_.php" method="post" name="frm">
     
     		<p class="texto text-color" style="margin-left: 20px;">Inserte Nombre de Usuario Aquí</p>
-    		<input type="text" name="user" style="border-radius: 12px; height: 30px; margin-left: 31px;" /><br />
+    		<input placeholder="Usuario" type="text" name="user" style="border-radius: 12px; height: 30px; margin-left: 31px;" /><br />
     		<br /><input type="submit" name="Enviar" value="Listo!" class="boton" style="border-radius: 10px; width: 140px; height: 30px; margin-left:46px;" />
 		</form>
 		<nav class="texto" style="margin-left: 45px; margin-top: 100px;">
