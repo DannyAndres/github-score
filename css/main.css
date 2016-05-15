@@ -81,3 +81,34 @@ body{
     width:80px;
     height:19px;
 }
+.inicio{
+	position: absolute;
+	right: 10px;
+}
+.star{
+	position: absolute;
+	right: 120px;
+}
+.git{
+	position: absolute;
+	right: 230px;
+}
+.github{
+	position: absolute;
+	right: 340px;
+}
+.swords{
+	position: absolute;
+	right: 450px;
+	top: 2px;
+}
+.circulo{
+	border-radius: 150px;
+}
+.top-index{
+	top: 190px;
+}
+.header-color{
+	background-color: red;
+	position: absolute;
+}
