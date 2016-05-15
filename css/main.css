@@ -5,6 +5,11 @@ body{
 	background-position: center;
 	background-size: 140%;	
 }
+form input{
+	padding: 0px 10px;
+	color: #6d6d6d;
+	text-align: center;
+}
 .img-redonda {
     width:300px;
     height:300px;
