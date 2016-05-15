@@ -62,9 +62,9 @@
 			<form action="battle_.php" method="post" name="frm" style="margin-top: -35px;">
 	    
 	    		<p class="texto text-color" style="margin-left: 35px;">Inserte los Usuarios Aquí</p>
-	    		<input type="text" name="user1" style="border-radius: 12px; height: 30px; margin-left: 31px;" /><br />
+	    		<input placeholder="Primer Usuario" type="text" name="user1" style="border-radius: 12px; height: 30px; margin-left: 31px;" /><br />
 	    		<br>
-	    		<input type="text" name="user2" style="border-radius: 12px; height: 30px; margin-left: 31px;" /><br />
+	    		<input placeholder="Segundo Usuario" type="text" name="user2" style="border-radius: 12px; height: 30px; margin-left: 31px;" /><br />
 	    		<br /><input type="submit" name="Enviar" value="Listo!" class="boton" style="border-radius: 10px; width: 140px; height: 30px; margin-left:46px;" />
 			</form>
 
