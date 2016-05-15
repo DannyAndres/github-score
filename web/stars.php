@@ -22,11 +22,35 @@ body{
 <body>
 <div id="particles-js"></div>
 
+		<div class="inicio" style="margin-right: 4px;">
+			<a href="../index.html">
+				<img src="../img_battle/home.png" alt="imagen" width="80" heigth="10"/>
+			</a>
+		</div>
+
+		<div class="git" style="margin-right: -110px;">
+				<a href="http://rogerdudler.github.io/git-guide/index.es.html">
+					<img src="../img/git.png" alt="imagen" width="80" heigth="10"/>
+				</a>
+		</div>
+
+		<div class="github" style="margin-right: -110px;">
+				<a href="https://github.com">
+					<img src="../img/github_cat.png" alt="imagen" width="80" heigth="10"/>
+				</a>
+		</div>
+
+		<div class="swords" style="margin-top: 5px; margin-right: -110px;">
+			<a href="battle.php">
+				<img class="circulo" src="../img_battle/swords.jpg" alt="imagen" width="80" heigth="10"/>
+			</a>
+		</div>
+
 	<div class="espacio-arriba-index centrar-stars" style="margin-left: -340px; margin-top: 170px;">
 		
 		<img width="246" heigth="184" src='../img/github-logo.png'>
 		
-		<h1 class="pacifico text-black" style="margin-left: 180px; margin-top: -20px;">Score</h1>
+		<h1 class="pacifico text-black" style="margin-left: 180px; margin-top: -20px;">Stars</h1>
 		
 
 		<form action="stars_.php" method="post" name="frm">

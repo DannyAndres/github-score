@@ -21,6 +21,36 @@
 	<body>
 
 		<div class="text-color" id="particles-js">
+
+		<div class="inicio" style="margin-right: 4px;">
+			<a href="../index.html">
+				<img src="../img_battle/home.png" alt="imagen" width="80" heigth="10"/>
+			</a>
+		</div>
+
+		<div class="star">
+				<a href="stars.php">
+					<img src="../img/star.png" alt="imagen" width="80" heigth="10"/>
+				</a>
+		</div>
+
+		<div class="git">
+				<a href="http://rogerdudler.github.io/git-guide/index.es.html">
+					<img src="../img/git.png" alt="imagen" width="80" heigth="10"/>
+				</a>
+		</div>
+
+		<div class="github">
+				<a href="https://github.com">
+					<img src="../img/github_cat.png" alt="imagen" width="80" heigth="10"/>
+				</a>
+		</div>
+		
+		<div class="swords" style="margin-top: -2px;">
+			<a href="battle.php">
+				<img class="circulo" src="../img_battle/swords.jpg" alt="imagen" width="80" heigth="10"/>
+			</a>
+		</div>
 	<!--____________________________________________________________________________________________________________-->
 			<div class="izquierda">
 
@@ -47,7 +77,7 @@
 						curl_close($ch);
 
 					?>
-					<img class="imagen-usuario" width="246" heigth="184" src='<?php echo $json2["avatar_url"]; ?>' alt='<?php $json2["name"]?>' >
+					<img class="imagen-usuario" width="246" heigth="184" src='<?php echo $json2["avatar_url"]; ?>' alt='<?php $json2["name"]?>'>
 				</div>
 
 			<!--_______________________________________________________________________________________________________-->
@@ -119,13 +149,6 @@
 							echo $updated."<br>";
 						}
 					?>
-					<nav style="font-size: 18px;">
-						<a href="stars.php" style="color: grey;">Estrellas totales<br>
-						 por repositorio</a>
-						<br>
-						<br>
-						<a href="../index.html" style="color: grey;">Volver</a>
-					</nav>
 				</div>
 
 			</div>
