@@ -7,4 +7,4 @@ Este programa tiene como objetivo calcular el puntaje de github de un usuario ba
 	CommitCommentEvent: Otorga 2
 	otro: Otorga 1
 
-El programa proximamente contara con nuevos cambios en sus proximas versiones
+El programa proximamente contara con nuevos cambios en sus proximas versiones hola a todos aqui probando los comandos
