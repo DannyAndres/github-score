@@ -1,0 +1,73 @@
+/*______cuerpo_______*/
+	body{
+		background-repeat: no-repeat; background-image:url("../img_index/background.jpg"); height: 100%; width: 100%; background-repeat:no-repeat; background-size:cover; background-attachment: fixed;
+	}
+
+
+/*______página_______*/
+	#particles-js{
+		width: 100%; height: 100%; position: fixed;
+	}
+	.troll{
+		margin-top: 12px; margin-left: 180px;
+	}
+
+
+/*______header_______*/
+
+	header {
+		width:100%; overflow:hidden; background:rgba(37,41,50,.9); margin-bottom:20px;
+	} 
+	.header-config {
+		width:90%; max-width:1000px; margin:auto; overflow:hidden; 
+	}
+	header .logo {
+		color:#f2f2f2; font-size:50px; line-height:100px; float:left;
+	}
+	header nav {
+		float:right; line-height:100px;
+	} 
+	header nav a {
+		display:inline-block; color:#fff; text-decoration:none; padding:10px 20px; line-height:normal; font-size:20px; font-weight:bold; -webkit-transition:all 500ms ease; -o-transition:all 500ms ease; transition:all 500ms ease;
+	}
+	 header nav a:hover {
+		background:#f56f3a; border-radius:50px;
+	}
+
+
+/*______Fuentes_______*/
+
+	.sans{
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+	.pacifico{
+		font-family: 'Pacifico', cursive;
+	}
+	.poiret{
+		font-family: 'Poiret One', cursive;
+	}
+
+
+/*______div maestro_______*/
+	.master-div{
+		position: absolute; top:50%; left:50%; width:800px; margin-left:-400px; height:400px; margin-top:-150px; border:1px solid #808080; padding:5px; border-radius: 20px; background:rgba(37,41,50,.9);
+
+	}
+
+
+/*______primer div_______*/
+
+	.profile-div{
+		position: relative; color: white; text-align: center;
+	}
+	.avatar{
+		border-radius: 25px;
+	}
+
+/*______Segundo div_______*/
+
+	.score-div{
+		position: relative; color: white; text-align: center;
+	}
+
+
