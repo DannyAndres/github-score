@@ -5,7 +5,7 @@
 	$client = new GuzzleHttp\Client();
 	
 	$res = $client->request('GET', 'https://api.github.com/user', [
-	    'auth' => ['DannyAndres','danny12345']
+	    'auth' => ['DannyAndres','xxxxxxxxx']
 	]);
 	
 	echo $res->getBody();
