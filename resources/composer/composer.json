@@ -1,0 +1,13 @@
+{
+    "name": "vendor/github",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "vlucas/phpdotenv": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "DannyAndres",
+            "email": "danny.aguilar@usach.cl"
+        }
+    ]
+}
