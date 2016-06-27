@@ -1,0 +1,26 @@
+{
+    "name": "vendor/github-score",
+    "require": {
+        "twig/twig": "^1.24",
+        "guzzlehttp/guzzle": "^6.2",
+        "vlucas/phpdotenv": "^2.2",
+        "squizlabs/php_codesniffer": "^2.6",
+        "mikecao/flight": "^1.2"
+    },
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "DannyAndres",
+            "email": "danny.aguilar@usach.cl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    }
+}
