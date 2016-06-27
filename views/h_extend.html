@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/css/home.css">
+	<link rel="stylesheet" href="src/css/font-awesome.min.css">
+	<link rel="stylesheet" href="src/css/animate.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="src/img/icon.png">
+</head>
+<body>
+	<header>
+		<div class="header-config">
+			<div class="logo">Github Score</div>			
+			<nav>
+				<a href="./">Inicio</a>
+				<a href="./Ranking">ranking</a>
+				<a href="http://rogerdudler.github.io/git-guide/index.es.html">Guía Git</a>
+				<a href="https://github.com">Github</a>
+			</nav>
+		</div>
+	</header>
+	<div class="col-md-10 col-md-offset-1 color-text">
+		{% block firstUser %}
+		{% endblock %}
+		{% block secondUser %}
+		{% endblock %}
+	</div>
+	<div class="winner-user-text pacifico">
+		{% block winner %}
+		{% endblock %}
+	</div>
+</body>
+</html>

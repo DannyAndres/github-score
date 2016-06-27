@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <form action="./" method="post" name="frm">    
+        <i class="fa fa-user icon" aria-hidden="true"></i>
+        <input placeholder="Primer Usuario" type="text" name="username" required/>
+        <br /><br />
+        <i class="fa fa-user icon" aria-hidden="true"></i>
+        <input placeholder="Segundo Usuario" type="text" name="username2" required/>
+        <br /><br />
+        <input class="botom" type="submit" name="Enviar" value="Listo!" class="boton"/>
+    </form>
+
+    {% if error %}
+        <hr>
+        <div class='alert alert-danger animated fadeInDown'>
+            Ingresa un nombre de usuario válido
+        </div>
+    {% endif %}
+{% endblock %}

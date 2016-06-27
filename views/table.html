@@ -1,0 +1,34 @@
+{% extends "t_extend.html" %}
+
+{% block content %}
+
+    <div class="table-color">
+        <div class="col-md-10 col-md-offset-1">
+            <table class="table text-center table-bordered table-border">
+                <thead>
+                    <tr>
+                        <th><h3 class="pacifico">_.Ranking._</h3></th>
+                        <th><h3 class="pacifico">_.Username._</h3></th>
+                        <th><h3 class="pacifico">__.Name.__</h3></th>
+                        <th><h3 class="pacifico">_.Score._</h3></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for score in scoreData %}
+                        <tr>
+                            <td><p>{{ranking}}</p></td>
+                            <td><p>{{score.getUserlogin}}</p></td>
+                            {% if score.getUsername %}
+                                <td><p>{{score.getUsername}}</p></td>
+                            {% else %}
+                                <td><p>Sin nombre</p></td>
+                            {% endif %}
+                            <td><p>{{score.getScore}}</p></td>
+                            {%set ranking = ranking + 1%}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
