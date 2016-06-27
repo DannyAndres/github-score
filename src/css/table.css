@@ -1,0 +1,85 @@
+body{
+	background-image: url("../img/background.jpg"); 
+	background-repeat: no-repeat; 	
+	height: 100%; 
+	width: 100%; 
+	background-size: cover; 
+	background-attachment: fixed;
+}
+input:not(.botom){
+	text-align: center;
+	border-radius: 7px; 
+	height: 30px; 
+	background: #1c1c20; 
+	border: 0px; 
+	opacity: 0.5; 
+	color: white;
+}
+.container{
+	position: absolute;
+	text-align: center;
+	top: 30%;
+}
+.botom{
+	border-radius: 10px; 
+	width: 90px; 
+	height: 30px; 
+	font-size:10px; 
+	font-family:Verdana,Helvetica; 
+	font-weight:bold; 
+	color:white; 
+	background:#f56f3a; 
+	border:0px;
+}
+.title{
+	color: white;
+	font-size: 45px;
+}
+.icon{
+	color: #B8D5D9;
+}
+.sans{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.poiret{
+	font-family: 'Poiret One', cursive;
+}
+header {
+	width:100%;
+	overflow:hidden;
+	background:rgba(37,41,50,.9); 
+	margin-bottom:20px;
+} 
+.header-config {
+	width:70%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+header .logo {
+	color:#f2f2f2; 
+	font-size:50px; 
+	line-height:65px; 
+	float:left;
+}
+header nav {
+	float:right; 
+	line-height:65px;
+} 
+header nav a {
+	display:inline-block; 
+	color:#fff; 
+	text-decoration:none; 
+	padding:10px 20px; 
+	line-height:normal; 
+	font-size:20px; 
+	font-weight:bold; -webkit-transition:all 500ms ease; 
+	-o-transition:all 500ms ease; transition:all 500ms ease;
+}
+ header nav a:hover {
+	background:#f56f3a; 
+	border-radius:50px;
+}
